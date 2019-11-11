@@ -1,4 +1,7 @@
 #!/usr/bin/perl -w
+use strict;
+use warnings;
+use diagnostics;
 use HTML::Template;
 use File::Slurp;
 

@@ -1,23 +1,27 @@
 <div class="experience">
-    <div class="container">
+	<div class="container">
 		<div class="row">
 			<span class="heading">What do I do?</span>
 			<h3 class="heading-main">HERE ARE SOME OF MY EXPERTISE</h3>
 		</div>
 		<div className="row row-pt-md">
-		<TMPL_LOOP NAME=EXPERIENCE>
-	        <div class="col-md-6 text-center">
-				<div class="services <TMPL_VAR ESCAPE=HTML NAME=COLOR>">
-					<span class="icon">
-						<i class="<TMPL_VAR ESCAPE=HTML NAME=ICON>"></i>
-	                </span>
-		            <div class="desc">
-						<h3><TMPL_VAR NAME=NAME></h3>
-		                <p><TMPL_VAR NAME=DESCRIPTION></p>
-		            </div>
-		        </div>
-			</div>
-		</TMPL_LOOP>
-    </div>
-    </div>
+			<TMPL_LOOP NAME=EXPERIENCE>
+				<div class="col-md-6 text-center">
+					<div class="services <TMPL_VAR ESCAPE=HTML NAME=COLOR>">
+						<span class="icon">
+							<i class="<TMPL_VAR ESCAPE=HTML NAME=ICON>"></i>
+						</span>
+						<div class="desc">
+							<h3>
+								<TMPL_VAR NAME=NAME>
+							</h3>
+							<p>
+								<TMPL_VAR NAME=DESCRIPTION>
+							</p>
+						</div>
+					</div>
+				</div>
+			</TMPL_LOOP>
+		</div>
+	</div>
 </div>
