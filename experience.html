@@ -2,17 +2,18 @@
     <div class="container">
         <span class="heading"></span>
         <h2 class="heading-main"></h2>
-        <TMPL_LOOP NAME="EXPERIENCE">
-            <div class="col-md-6 text-center">
-                <div class="services <TMPL_VAR ESCAPE=HTML NAME="COLOR">"><span class="icon"><i class="<TMPL_VAR ESCAPE=HTML NAME="ICON""></i></span>
-                    <div class="desc">
-                        <h3><TMPL_VAR NAME="NAME"></h3>
-                        <p><TMPL_VAR NAME="DESCRIPTION"></p>
-                    </div>
-                </div>
-            </div>
-        </TMPL_LOOP>
-
+		<TMPL_LOOP NAME=EXPERIENCE>
+	        <div class="col-md-6 text-center">
+				<div class="services <TMPL_VAR ESCAPE=HTML NAME=COLOR>">
+					<span class="icon">
+						<i class="<TMPL_VAR ESCAPE=HTML NAME=ICON>"></i>
+	                </span>
+		            <div class="desc">
+						<h3><TMPL_VAR NAME=NAME></h3>
+		                <p><TMPL_VAR NAME=DESCRIPTION></p>
+		            </div>
+		        </div>
+			</div>
+		</TMPL_LOOP>
     </div>
-    <img class="bg-img" src="./images/bg.jpg" />
 </div>
