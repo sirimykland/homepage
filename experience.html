@@ -1,10 +1,18 @@
-<div class="home">
-	<div class="container">
-	    <h1>Hi! <br>I'm Siri</h1>
-        <p><a href="./files/cv_english2019.pdf" target="_blank" class="btn btn-primary btn-learn">Download
-         CV<i class="icon-download4"></i></a></p>
-		<h2>Welcome to my site!</h2>
-        <p>On this page I will try to post my projects.</p>
+<div class="experience">
+    <div class="container">
+        <span class="heading"></span>
+        <h2 class="heading-main"></h2>
+        <TMPL_LOOP NAME="EXPERIENCE">
+            <div class="col-md-6 text-center">
+                <div class="services <TMPL_VAR ESCAPE=HTML NAME="COLOR">"><span class="icon"><i class="<TMPL_VAR ESCAPE=HTML NAME="ICON""></i></span>
+                    <div class="desc">
+                        <h3><TMPL_VAR NAME="NAME"></h3>
+                        <p><TMPL_VAR NAME="DESCRIPTION"></p>
+                    </div>
+                </div>
+            </div>
+        </TMPL_LOOP>
+
     </div>
-    <img class="bg-img" src="./images/bg.jpg"/>
+    <img class="bg-img" src="./images/bg.jpg" />
 </div>
