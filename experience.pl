@@ -11,7 +11,7 @@ my @experience_list = [
         name => 'WEB DEVELOPMENT', 
         description => 'I have experience building websites using JavaScript,
         React, HTML, CSS.',
-        icon => "icon-world",
+        icon => "fas fa-globe",
         color => 'color-1'
     },{
         name => 'DATA STRUCTURES & ALGORITHMS', 
@@ -22,19 +22,19 @@ my @experience_list = [
     },{
         name => 'DATABASES', 
         description => 'I have experience with MySQL and PostgreSQL.',
-        icon => "icon-data",
+        icon => "fas fa-database",
         color => 'color-3'
     },{
         name => 'DEV OPS', 
         description => 'During my internship with Systek at Skatteetaten 
                         we used Openshift and worked with tools like Jenkins, 
                         and touched on the concepts of Kubernetes and Docker.',
-        icon => "icon-data",
+        icon => "fas fa-database",
         color => 'color-4'
     },{
         name => 'GIT CLIENTS', 
         description => 'I have worked with Git, GitHub Desktop and Bitbucket.',
-        icon => "icon-git",
+        icon => "fab fa-git-square",
         color => 'color-5'
     },{
         name => 'COLLABOARTION TOOLS', 
