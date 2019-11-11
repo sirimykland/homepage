@@ -1,3 +1,13 @@
+
+.services .icon:before {
+    top: -30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 30px 50px;
+    border-color: transparent transparent #2c98f0 transparent;
+}
+
 .services .icon {
     position: absolute;
     top: -20px;
@@ -8,6 +18,15 @@
     display: table;
     margin: 0 auto;
     background: #2c98f0;
+}
+
+.services .icon:after {
+    bottom: -30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 50px 0 50px;
+    border-color: #2c98f0 transparent transparent transparent;
 }
 
 .services.color-1 .icon {
