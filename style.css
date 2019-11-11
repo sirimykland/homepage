@@ -11,10 +11,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0; 
 }
 
+
 .container{
 	padding:20px 10px 20px 10px;
 
 }
+.bg-img {
+		  background: url(./images/bg.jpg) no-repeat center center fixed; 
+		    -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			    -o-background-size: cover;
+				  background-size: cover;
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}  
 
 
 /* The sidebar menu */

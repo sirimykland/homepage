@@ -4,8 +4,10 @@ use File::Slurp;
 
 # open the html template
 my $template = HTML::Template->new(filename => 'test.tmpl');
-my $title = 'Are you Siriuss?';
-my $content = read_file('home.html');
+my $title = 'My experience';
+my $content = read_file('experience.html');
+my @experience_list = ""; 
+
 
 # fill in some parameters
 $template->param(TITLE => $title);
