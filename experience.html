@@ -1,10 +1,13 @@
-<div class="experience">
-	<div class="container">
+<div class="container">
+	<div class="experience">
 		<div class="row">
+		<div class="heading_container">
 			<span class="heading">What do I do?</span>
 			<h3 class="heading-main">HERE ARE SOME OF MY EXPERTISE</h3>
 		</div>
-		<div className="row row-pt-md">
+		</div>
+		<div class="space"></div>
+		<div class="row">
 			<TMPL_LOOP NAME=EXPERIENCE>
 				<div class="col-md-6 text-center">
 					<div class="services <TMPL_VAR ESCAPE=HTML NAME=COLOR>">
@@ -22,6 +25,6 @@
 					</div>
 				</div>
 			</TMPL_LOOP>
-		</div>
 	</div>
+</div>
 </div>
