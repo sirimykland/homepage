@@ -7,74 +7,97 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="trivia.js"></script>
-</head><meta charset="utf-8">
+    <script type="text/javascript" src="validate.js"></script>
+
+</head>
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
     <div class="container">
-        <div>
-            <div class="form-group">
-                <label for="trivia_amount">Number</label>
-                <input type="number" required class="form-control" id="trivia_amount" value="10" min="1" max="50">
+        <div id="trivia_config">
+            <div>
+                <div class="form-group">
+                    <label for="trivia_amount">Number</label>
+                    <input type="number" required class="form-control" id="trivia_amount" value="10" min="1" max="50">
+                </div>
+                <div class="form-group">
+                    <label for="trivia_category">Category</label>
+                    <select id="trivia_category" class="form-control">
+                        <option value="any" selected>Any Category</option>
+                        <option value="9">General Knowledge</option>
+                        <option value="10">Entertainment: Books</option>
+                        <option value="11">Entertainment: Film</option>
+                        <option value="12">Entertainment: Music</option>
+                        <option value="13">Entertainment: Musicals &amp; Theatres</option>
+                        <option value="14">Entertainment: Television</option>
+                        <option value="15">Entertainment: Video Games</option>
+                        <option value="16">Entertainment: Board Games</option>
+                        <option value="17">Science &amp; Nature</option>
+                        <option value="18">Science: Computers</option>
+                        <option value="19">Science: Mathematics</option>
+                        <option value="20">Mythology</option>
+                        <option value="21">Sports</option>
+                        <option value="22">Geography</option>
+                        <option value="23">History</option>
+                        <option value="24">Politics</option>
+                        <option value="25">Art</option>
+                        <option value="26">Celebrities</option>
+                        <option value="27">Animals</option>
+                        <option value="28">Vehicles</option>
+                        <option value="29">Entertainment: Comics</option>
+                        <option value="30">Science: Gadgets</option>
+                        <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+                        <option value="32">Entertainment: Cartoon &amp; Animations</option>
+                    </select>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="trivia_difficulty">Difficulty</label>
+                    <select id="trivia_difficulty" class="form-control">
+                        <option value="any" selected>Any Difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="trivia_type">Select Type: </label>
+                    <select id="trivia_type" class="form-control">&gt;
+                        <option value="any" selected>Any Type</option>
+                        <option value="multiple">Multiple Choice</option>
+                        <option value="boolean">True / False</option>
+                    </select>
+                </div>
+                <button class="btn btn-md btn-primary" onclick="getTrivia()">Generate Trivia</button>
             </div>
-            <div class="form-group">
-                <label for="trivia_category">Category</label>
-                <select id="trivia_category" class="form-control">
-                    <option value="any" selected>Any Category</option>
-                    <option value="9">General Knowledge</option>
-                    <option value="10">Entertainment: Books</option>
-                    <option value="11">Entertainment: Film</option>
-                    <option value="12">Entertainment: Music</option>
-                    <option value="13">Entertainment: Musicals &amp; Theatres</option>
-                    <option value="14">Entertainment: Television</option>
-                    <option value="15">Entertainment: Video Games</option>
-                    <option value="16">Entertainment: Board Games</option>
-                    <option value="17">Science &amp; Nature</option>
-                    <option value="18">Science: Computers</option>
-                    <option value="19">Science: Mathematics</option>
-                    <option value="20">Mythology</option>
-                    <option value="21">Sports</option>
-                    <option value="22">Geography</option>
-                    <option value="23">History</option>
-                    <option value="24">Politics</option>
-                    <option value="25">Art</option>
-                    <option value="26">Celebrities</option>
-                    <option value="27">Animals</option>
-                    <option value="28">Vehicles</option>
-                    <option value="29">Entertainment: Comics</option>
-                    <option value="30">Science: Gadgets</option>
-                    <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
-                    <option value="32">Entertainment: Cartoon &amp; Animations</option>
-                </select>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="trivia_difficulty">Difficulty</label>
-                <select id="trivia_difficulty" class="form-control">
-                    <option value="any"selected>Any Difficulty</option>
-                    <option value="easy">Easy</option>
-                    <option value="medium">Medium</option>
-                    <option value="hard">Hard</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="trivia_type">Select Type: </label>
-                <select id="trivia_type" class="form-control">&gt;
-                    <option value="any" selected>Any Type</option>
-                    <option value="multiple">Multiple Choice</option>
-                    <option value="boolean">True / False</option>
-                </select>
-            </div>
-            <button onclick="getTrivia()" class="btn btn-lg btn-primary btn-block">Generate API URL</button>
         </div>
-    </div>
-    <div id="trivia_container" class="container">
+        <div id="trivia_questions">
+            <div class="form-group">
+                <button id="showConfig_btn" class="btn btn-md btn-primary" onclick="showConfiguration()">Show
+                    form</button>
+                <button id="hideConfig_btn" class="btn btn-md btn-primary" onclick="hideConfiguration()">Hide
+                    form</button>
+            </div>
+            <div  class="form-group" id="questions_placeholder"></div>
+            <div class="form-group">
+                <button class="btn btn-md btn-primary" onclick="validate()">Submit</button>
+            </div>
 
-    </div>   
-    
+        </div>
+        <div id="trivia_results">
+            <button class="btn btn-md btn-primary" onclick="showAnswers()">Show my answers</button>
+            <button class="btn btn-md btn-primary" onclick="hideAnswers()">Hide my answers</button>
+        </div>
+
+    </div>
+
 </body>
 
 </html>

@@ -1,5 +1,13 @@
+window.onload = function(){
+  document.getElementById("trivia_questions").style.display="none";
+  document.getElementById("trivia_results").style.display="none";
+  document.getElementById("hideConfig_btn").style.display="none";
+}
+
 function getTrivia() {
-  var resultElement = document.getElementById("trivia_container");
+  console.log('hello');
+  //document.getElementById("trivia_questions").style.display= "block";
+  var resultElement = document.getElementById("questions_placeholder")
   resultElement.innerHTML = "";
 
   axios
@@ -7,6 +15,8 @@ function getTrivia() {
     .then(function(response) {
       console.log(response);
       resultElement.innerHTML = generateSuccessHTMLOutput(response);
+      document.getElementById("trivia_config").style.display = "none";
+      document.getElementById("trivia_questions").style.display= "block";
     })
     .catch(function(error) {
       console.error(error);
@@ -39,12 +49,11 @@ function generateSuccessHTMLOutput(response) {
 
   if (data.results) {
     let id = 0;
-    questions.push("<form>");
+    questions.push("<div>");
     data.results.forEach(element => {
-      //console.log(element);
       questions.push(questionFormat(element, ++id));
     });
-    questions.push("</form>");
+    questions.push("</div>");
   }
 
   return questions.join("");
@@ -89,38 +98,15 @@ function answerFormat(result, id, correct, incorrect) {
     q.push(a.join('\n'));
   });
 
-
-
   // shuffels the order of answers
   q = shuffleArray(q);
   
-
-
   g.push("<div class='input-group'>");
   g.push(q.join(''));
   g.push("</div>");
   return g.join("");
 }
 
-function generateSuccessHTMLOutput1(response) {
-  return (
-    "<h4>Result</h4>" +
-    "<h5>Status:</h5> " +
-    "<pre>" +
-    response.status +
-    " " +
-    response.statusText +
-    "</pre>" +
-    "<h5>Headers:</h5>" +
-    "<pre>" +
-    JSON.stringify(response.headers, null, "\t") +
-    "</pre>" +
-    "<h5>Data:</h5>" +
-    "<pre>" +
-    JSON.stringify(response.data, null, "\t") +
-    "</pre>"
-  );
-}
 function generateErrorHTMLOutput(error) {
   return (
     "<h4>Result</h4>" +
