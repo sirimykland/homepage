@@ -9,7 +9,6 @@ use File::Slurp;
 my $template = HTML::Template->new(filename => '../test.tmpl');
 my $title = 'Trivia';
 my $head = '<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="trivia.js"></script>
     <link rel="stylesheet" href="trivia.css">';
 my $content = read_file('trivia.html');
