@@ -6,9 +6,9 @@ use HTML::Template;
 use File::Slurp;
 
 # open the html template
-my $template = HTML::Template->new(filename => 'test.tmpl');
+my $template = HTML::Template->new(filename => './global/test.tmpl');
 my $title = 'Are you Siriuss?';
-my $content = read_file('home.html');
+my $content = read_file('./home.html');
 
 # fill in some parameters
 $template->param(TITLE => $title);
