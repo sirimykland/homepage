@@ -66,7 +66,7 @@ function questionFormat(result, id) {
   q.push("Category:  <em>" + result.category + "</em> ");
   q.push("<h5>");
   q.push(result.question);
-  q.push("<span class='stat stat-C'></span></h5>");
+  q.push("<span class='stat stat-IC'></span></h5>");
   q.push("<h6>Answers:</h6>");
 
   q.push(
@@ -89,7 +89,7 @@ function answerFormat(result, id, correct, incorrect) {
       id +
       "' value='true'>"
   );
-  a.push(correct + "<span class='stat stat-IC'></span></label>");
+  a.push(correct + "<span class='stat stat-C'></span></label>");
   a.push("</div>");
   q.push(a.join("\n"));
 
@@ -102,7 +102,7 @@ function answerFormat(result, id, correct, incorrect) {
         id +
         "' value='false'>"
     );
-    a.push(ans + "<span class='stat stat-IC'></span></label>");
+    a.push(ans + "<span class='stat stat-C'></span></label>");
     a.push("</div>");
     q.push(a.join("\n"));
   });
@@ -140,8 +140,8 @@ function generateErrorHTMLOutput(error) {
   );
 }
 /**
- * 
- * provides the collapsible bars with an event listener 
+ *
+ * provides the collapsible bars with an event listener
  */
 function collapsible() {
   var coll = document.getElementsByClassName("collapsible");
@@ -158,7 +158,7 @@ function collapsible() {
       }
     });
   }
-};
+}
 
 /**
  * Randomize array element order in-place.
@@ -179,17 +179,17 @@ function shuffleArray(array) {
 function validate() {
   $questions = $(".question");
   ($correct = 0), ($incorrect = 0), ($unanswerd = 0);
-  clearIcons();
+  this.clearIcons();
   $questions.each(function() {
     var answer = $(this).find("input:checked"),
       key = answer.attr("name"),
       val = answer.attr("value");
 
     if (answer.length === 0) {
-      markIncorrect($(".stat-C",this));
+      markUnanswered($(this).find(".stat-IC"));
       $unanswerd++;
     } else if (val == "false") {
-      markIncorrect($("stat-C",this));
+      markIncorrect($(this).find(".stat-IC"));
       $incorrect++;
     } else {
       markCorrect(answer.parent());
@@ -217,7 +217,14 @@ function validate() {
   }
   resultContent.append(result);
   showElement("trivia_results");
+  toggleElement("trivia_results");
   toggleElement("trivia_questions");
+}
+function markUnanswered(el) {
+  var i = document.createElement("i");
+  i.style.color = "#EED202";
+  i.className = "fas fa-exclamation-circle";
+  el.append(i);
 }
 
 function markIncorrect(el) {
@@ -243,20 +250,17 @@ function showHideElements(show, hide) {
   document.getElementById(hide).style.display = "none";
 }
 
-
 function showElement(show) {
   document.getElementById(show).style.display = "block";
-  //this.toggleElement(show);
 }
 function hideElement(hide) {
   document.getElementById(hide).style.display = "none";
-  //this.toggleElement(hide);
 }
 
 function toggleElement(elementId) {
-  $(".collapsible", '#'+elementId).click();
+  $(".collapsible", "#" + elementId).click();
 }
 
-function clearIcons(){
+function clearIcons() {
   document.getElementsByClassName("stat").innerHTML = " ";
 }

@@ -16,13 +16,21 @@
 }
 
 .content {
-  padding: 18px;
+  padding: 0 18px;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   background-color: #f1f1f1;
 }
+.active + .content {
+    padding: 18px;
+}
 
-/*.but{
-    padding-top: 20px;
-}*/
+label {
+    padding: 0 10px;
+    font-size: larger;
+}
+
+i{
+    margin: 0 10px;
+}
