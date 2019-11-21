@@ -8,6 +8,7 @@ use File::Slurp;
 # open the html template
 my $template = HTML::Template->new(filename => 'test.tmpl');
 my $title = 'My experience';
+my $headsource ='    <link rel="stylesheet" type="text/css" href="./experience.css">';
 my $content = HTML::Template->new(filename => 'experience.html');
 my @experience_list = [
     {
@@ -65,6 +66,7 @@ my @experience_list = [
 # fill in some parameters
 $content->param(EXPERIENCE => @experience_list);
 $template->param(TITLE => $title);
+template->param(HEAD=>$headsource);
 $template->param(CONTENT => $content->output);
 #$template->param( EXPERIENCE => @experience_list); 
 # send the obligatory Content-Type and print the template output
