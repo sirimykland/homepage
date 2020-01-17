@@ -90,6 +90,13 @@ audio {
 	background: url('../img/50-50.png') no-repeat 0 0;
 }
 
+#irc {
+	background: url('../img/irc.png') no-repeat 0 0;
+}
+#doc {
+	background: url('../img/dok.png') no-repeat 0 0;
+}
+
 #phone-friend {
 	background: url('../img/phone-friend.png') no-repeat 0 0;
 }

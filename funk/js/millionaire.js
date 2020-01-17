@@ -60,7 +60,9 @@ var MillionaireModel = function(data) {
 
  	// The three options the user can use to 
  	// attempt to answer a question (1 use each)
- 	this.usedFifty = new ko.observable(false);
+	this.usedFifty = new ko.observable(false);
+	this.usedIrc = new ko.observable(false);
+	this.usedDok = new ko.observable(false);
  	this.usedPhone = new ko.observable(false);
  	this.usedAudience = new ko.observable(false);
 
