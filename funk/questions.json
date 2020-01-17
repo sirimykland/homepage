@@ -31,7 +31,17 @@
 						""
 				    ],
 		            "correct" : 0
-		        },
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Utfordring"
+				},
 		        {
 		            "question" : "Hvor mange tb med lagringsplass har kolje?",
 		            "content": [
@@ -110,7 +120,7 @@
 						"",
 						""
 				    ],
-				    "question": "Spørsmål"
+				    "question": "Utfordring"
 				},
 				{
 				    "correct": 0,
@@ -120,7 +130,7 @@
 						"",
 						""
 				    ],
-				    "question": "Spørsmål"
+				    "question": "Fullfør sitatet: 'Etter at jeg begynte i ITK har jeg...'"
 				},
 				{
 				    "correct": 0,
@@ -130,7 +140,7 @@
 						"",
 						""
 				    ],
-				    "question": "Spørsmål"
+				    "question": "Hva er rekkefølgen på fargene på kablene i RJ45B?"
 				},
 				{
 				    "correct": 0,
@@ -140,7 +150,17 @@
 						"",
 						""
 				    ],
-				    "question": "Spørsmål"
+				    "question": "Hva eller hvem er brus ifølge Svein?"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Hva er det halvor forveksler med IP addressen sin?"
 				},
 				{
 				    "correct": 0,
