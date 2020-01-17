@@ -3,7 +3,7 @@
 		{
 		    "questions" : [
 		        {
-		            "question" : "In what children's game are participants chased by someone designated \"It\"?",
+		            "question" : "Hva er ipv6-adressen til cirkus?",
 		            "content" : [
 		                "Tag",
 		                "Simon Says",
@@ -13,7 +13,7 @@
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "On a radio, stations are changed by using what control?",
+		            "question" : "Hvilken prosessor har seremonipcen?",
 		            "content" : [
 		                "Tuning",
 		                "Volume",
@@ -23,7 +23,7 @@
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "Which material is most dense?",
+		            "question" : "hvor mange farger har pasta basta miami?",
 		            "content" : [
 		                "Silver",
 		                "Styrofoam",
@@ -33,7 +33,7 @@
 		            "correct" : 3
 		        },
 		        {
-		            "question" : "Which state in the United States is largest by area?",
+		            "question" : "hvor mange tb med lagringsplass har kolje?",
 		            "content" : [
 		                "Alaska",
 		                "California",
@@ -43,7 +43,7 @@
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "What is Aurora Borealis commonly known as?",
+		            "question" : "Hvor mange meldinger ble sendt på #itk i 2019?",
 		            "content" : [
 		                "Fairy Dust",
 		                "Northern Lights",
@@ -60,7 +60,7 @@
 				        "discovered that the movement of pendulum produces a regular time measurement",
 				        "All of the above"
 				    ],
-				    "question": "Galileo was an Italian astronomer who"
+				    "question": "Hvor mange medlemmer har vært i ITK før dere?"
 				},
 				{
 				    "correct": 3,
