@@ -10,7 +10,7 @@
 						"",
 						""
 				    ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "Hvilken prosessor har seremonipcen?",
@@ -63,7 +63,7 @@
 				    "question": "Hvor mange medlemmer har vært i ITK før dere?"
 				},
 				{
-				    "correct": 3,
+				    "correct": 0,
 				    "content": [
 						"",
 						"",
@@ -83,7 +83,7 @@
 				    "question": "Hva er steketid og -temperatur for en grandiosa?"
 				},
 				{
-				    "correct": 1,
+				    "correct": 0,
 				    "content": [
 						"",
 						"",
@@ -93,7 +93,7 @@
 				    "question": "Hva sier ITK doken om soving?"
 				},
 				{
-				    "correct": 2,
+				    "correct": 0,
 				    "content": [
 						"",
 						"",
@@ -103,54 +103,194 @@
 				    "question": "Hva/Hvem er Dagobert og Blondie?"
 				},
 				{
-				    "correct": 2,
+				    "correct": 0,
 				    "content": [
 						"",
 						"",
 						"",
 						""
 				    ],
-				    "question": "When is the International Workers' Day?"
-				},
-				{
-				    "correct": 2,
-				    "content": [
-						"",
-						"",
-						"",
-						""
-				    ],
-				    "question": "When did China test their first atomic device?"
-				},
-				{
-				    "correct": 3,
-				    "content": [
-						"",
-						"",
-						"",
-						""
-				    ],
-				    "question": "When did Commander Robert Peary discover the North Pole?"
+				    "question": "Spørsmål"
 				},
 				{
 				    "correct": 0,
 				    "content": [
-				        "",
-				        "602/sq. km",
-				        "415/sq. km",
-				        "500/sq. km"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "What is the population density of Kerala?"
+				    "question": "Spørsmål"
 				},
 				{
-				    "correct": 1,
+				    "correct": 0,
 				    "content": [
-				        "",
-				        "25 km",
-				        "500 m to 9 km",
-				        "150 km"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "What is the range of missile 'Akash'?"
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+				    "question": "Spørsmål"
 				}
 		    ]
 		},
