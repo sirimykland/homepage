@@ -150,11 +150,11 @@ var MillionaireModel = function(data) {
  		$("#" + elm).slideUp('slow', function() {
  			startSound('wrongsound', false);
  			$("#" + elm).css('background', 'red').slideDown('slow', function() {
- 				$("#game").fadeOut('slow', function() {
- 					$("#game-over").html('Game Over!');
+ 				/*$("#game").fadeOut('slow', function() {
+ 					$("#game-over").html('sudo cd!');
  					$("#game-over").fadeIn('slow');
  					self.transitioning = false;
- 				});
+ 				});*/
  			});
  		});
  	}
