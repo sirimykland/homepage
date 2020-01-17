@@ -4,138 +4,138 @@
 		    "questions" : [
 		        {
 		            "question" : "Hva er ipv6-adressen til cirkus?",
-		            "content" : [
-		                "Neste Spørsmål",
-		                "Simon Says",
-		                "Charades",
-		                "Hopscotch"
-		            ],
-		            "correct" : 0
+		            "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
+		            "correct" : 1
 		        },
 		        {
 		            "question" : "Hvilken prosessor har seremonipcen?",
-		            "content" : [
-		                "Tuning",
-		                "Volume",
-		                "Bass",
-		                "Treble"
-		            ],
+		            "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "hvor mange farger har pasta basta miami?",
-		            "content" : [
-		                "Silver",
-		                "Styrofoam",
-		                "Butter",
-		                "Gold"
-		            ],
+		            "question" : "Hvor mange farger har pasta basta miami?",
+		            "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
 		            "correct" : 0
 		        },
 		        {
-		            "question" : "hvor mange tb med lagringsplass har kolje?",
-		            "content" : [
-		                "Alaska",
-		                "California",
-		                "Texas",
-		                "Hawaii"
-		            ],
+		            "question" : "Hvor mange tb med lagringsplass har kolje?",
+		            "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
 		            "correct" : 0
 		        },
 		        {
 		            "question" : "Hvor mange meldinger ble sendt på #itk i 2019?",
-		            "content" : [
-		                "Fairy Dust",
-		                "Northern Lights",
-		                "Book of ages",
-		                "a Game of Thrones main character"
-		            ],
+		            "content": [
+						"",
+						"",
+						"",
+						""
+				    ],
 		            "correct" : 0
 		        },
 				{
-				    "correct": 3,
+				    "correct": 0,
 				    "content": [
-				        "developed the telescope",
-				        "discovered four satellites of Jupiter",
-				        "discovered that the movement of pendulum produces a regular time measurement",
-				        "All of the above"
+						"",
+						"",
+						"",
+						""
 				    ],
 				    "question": "Hvor mange medlemmer har vært i ITK før dere?"
 				},
 				{
 				    "correct": 3,
 				    "content": [
-				        "the infrared light kills bacteria in the body",
-				        "resistance power increases",
-				        "the pigment cells in the skin get stimulated and produce a healthy tan",
-				        "the ultraviolet rays convert skin oil into Vitamin D"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "Exposure to sunlight helps a person improve his health because"
+				    "question": "Hvor mange RT-medaljer eksisterer det?"	
 				},
 				{
 				    "correct": 0,
 				    "content": [
-				        "a club or a local sport association for remarkable achievements",
-				        "amateur athlete, not necessarily an Olympian",
-				        "National Olympic Committee for outstanding work",
-				        "None of the above"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "Sir Thomas Fearnley Cup is awarded to"
+				    "question": "Hva er steketid og -temperatur for en grandiosa?"
 				},
 				{
 				    "correct": 1,
 				    "content": [
-				        "1968",
-				        "1929",
-				        "1901",
-				        "1965"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "Oscar Awards were instituted in"
+				    "question": "Hva sier ITK doken om soving?"
 				},
 				{
 				    "correct": 2,
 				    "content": [
-				        "1998",
-				        "1989",
-				        "1979",
-				        "1800"
+						"",
+						"",
+						"",
+						""
 				    ],
-				    "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?"
+				    "question": "Hva/Hvem er Dagobert og Blondie?"
 				},
 				{
 				    "correct": 2,
 				    "content": [
-				        "15th April",
-				        "12th December",
-				        "1st May",
-				        "1st August"
+						"",
+						"",
+						"",
+						""
 				    ],
 				    "question": "When is the International Workers' Day?"
 				},
 				{
 				    "correct": 2,
 				    "content": [
-				        "1962",
-				        "1963",
-				        "1964",
-				        "1965"
+						"",
+						"",
+						"",
+						""
 				    ],
 				    "question": "When did China test their first atomic device?"
 				},
 				{
 				    "correct": 3,
 				    "content": [
-				        "1904",
-				        "1905",
-				        "1908",
-				        "1909"
+						"",
+						"",
+						"",
+						""
 				    ],
 				    "question": "When did Commander Robert Peary discover the North Pole?"
 				},
 				{
 				    "correct": 0,
 				    "content": [
-				        "819/sq. km",
+				        "",
 				        "602/sq. km",
 				        "415/sq. km",
 				        "500/sq. km"
@@ -145,7 +145,7 @@
 				{
 				    "correct": 1,
 				    "content": [
-				        "4 km",
+				        "",
 				        "25 km",
 				        "500 m to 9 km",
 				        "150 km"
@@ -159,7 +159,7 @@
 		        {
 		            "question" : "In the U.S., if it's not Daylight Saving Time, it's what?",
 		            "content" : [
-		                "Borrowed time",
+		                "",
 		                "Overtime",
 		                "Standard time",
 		                "Party time"
