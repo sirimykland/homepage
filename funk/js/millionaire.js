@@ -150,7 +150,7 @@ var MillionaireModel = function(data) {
  		$("#" + elm).slideUp('slow', function() {
  			startSound('wrongsound', false);
  			$("#" + elm).css('background', 'red').slideDown('slow', function() {
-				self.level(self.level() + 1);
+				self.level(self.level() - 1);
 				$("#" + elm).css('background', 'none');
 				$("#answer-one").show();
 				$("#answer-two").show();
