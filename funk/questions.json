@@ -5,7 +5,7 @@
 		        {
 		            "question" : "Hva er ipv6-adressen til cirkus?",
 		            "content" : [
-		                "Tag",
+		                "Neste Spørsmål",
 		                "Simon Says",
 		                "Charades",
 		                "Hopscotch"
@@ -30,7 +30,7 @@
 		                "Butter",
 		                "Gold"
 		            ],
-		            "correct" : 3
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "hvor mange tb med lagringsplass har kolje?",
@@ -50,7 +50,7 @@
 		                "Book of ages",
 		                "a Game of Thrones main character"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 				{
 				    "correct": 3,
@@ -164,7 +164,7 @@
 		                "Standard time",
 		                "Party time"
 		            ],
-		            "correct" : 2
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "Which part of the body are you most likely to \"stub\"?",
@@ -184,7 +184,7 @@
 		                "Russia",
 		                "China"
 		            ],
-		            "correct" : 2
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "What does the \"F\" stand for in FBI?",
@@ -194,7 +194,7 @@
 		                "Flappy",
 		                "Face"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "The US declared war on which country after the bombing of Pearl Harbor?",
@@ -318,7 +318,7 @@
 		                "White",
 		                "Golden"
 		            ],
-		            "correct" : 2
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
@@ -328,7 +328,7 @@
 		                "Nose",
 		                "Mouth"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "What is commonly known as the \"Emerald City\" in the United States?",
@@ -338,7 +338,7 @@
 		                "New York, NY",
 		                "Dallas, TX"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "What is the national emblem of Canada?",
@@ -472,7 +472,7 @@
 		                "Chewing gum",
 		                "Baby Food"
 		            ],
-		            "correct" : 3
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "In which of these household appliances would you find a lint screen?",
@@ -482,7 +482,7 @@
 		                "Clothes dryer",
 		                "Trash compactor"
 		            ],
-		            "correct" : 2
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "What are the three primary colors?",
@@ -502,7 +502,7 @@
 		                "United Flag Opposition",
 		                "Unidentified Flying Object"
 		            ],
-		            "correct" : 3
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "In aviation, what does UFO stand for?",
@@ -512,7 +512,7 @@
 		                "United Flag Opposition",
 		                "Unidentified Flying Object"
 		            ],
-		            "correct" : 3
+		            "correct" : 0
 		        },
 				{
 				    "correct": 0,
@@ -626,7 +626,7 @@
 		                "Fox",
 		                "Teenager"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
@@ -646,7 +646,7 @@
 		                "Water",
 		                "Helium"
 		            ],
-		            "correct" : 1
+		            "correct" : 0
 		        },
 		        {
 		            "question" : "Which month has only 28 days (unless it's a leap year)?",
@@ -656,7 +656,7 @@
 		                "June",
 		                "Feburary"
 		            ],
-		            "correct" : 3
+		            "correct" : 0
 		        },
 				{
 				    "correct": 1,
