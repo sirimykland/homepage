@@ -12,9 +12,9 @@ my $headsource ='<link rel="stylesheet" type="text/css" href="./experience.css">
 my $content = HTML::Template->new(filename => './experience.html');
 my @experience_list = [
     {
-        name => 'WEB DEVELOPMENT', 
-        description => 'I have experience building websites using JavaScript,
-        React, HTML, CSS.',
+        name => 'DEVELOPMENT', 
+        description => 'I have experience building full-stack applications using
+        React, HTML, Java w/ Spring, Kotlin, python w/ Django, Perl etc.',
         icon => "fas fa-globe",
         color => 'color-1'
     },{
@@ -54,7 +54,7 @@ my @experience_list = [
         icon => "fa fa-gamepad",
         color => 'color-1'
     },{
-        name => 'COLLABOARTION TOOLS', 
+        name => 'EDITORS', 
         description => 'Through the years I have been using Vim, Atom, Sublime, 
                         IntelliJ IDEA, Eclipse, Visual Studio Code, Visual Studio.',
         icon => "far fa-file-code",
