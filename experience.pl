@@ -13,8 +13,9 @@ my $content = HTML::Template->new(filename => './experience.html');
 my @experience_list = [
     {
         name => 'DEVELOPMENT', 
-        description => 'I have experience building full-stack applications using
-        React, HTML, Java w/ Spring, Kotlin, python w/ Django, Perl etc.',
+        description => 'I have experience building fullstack applications using
+                        Java, Kotlin, Spring, GraphQL, React, Typescript, JavaScript, Apollo, Node, 
+                        Redux, Python w/ Flask, Perl etc.',
         icon => "fas fa-globe",
         color => 'color-1'
     },{
@@ -25,14 +26,13 @@ my @experience_list = [
         color => 'color-2'
     },{
         name => 'DATABASES', 
-        description => 'I have experience with MySQL and PostgreSQL.',
+        description => 'I have experience with PostgreSQL and Firebase real-time DB.',
         icon => "fas fa-database",
         color => 'color-3'
     },{
         name => 'DEV OPS', 
-        description => 'During my internship with Systek at Skatteetaten 
-                        we used Openshift and worked with tools like Jenkins, 
-                        and touched on the concepts of Kubernetes and Docker.',
+        description => "During my internships I've worked with Gradle, Openshift, Jenkins, CircleCI,
+                        and Docker.",
         icon => "fas fa-database",
         color => 'color-4'
     },{
@@ -42,21 +42,22 @@ my @experience_list = [
         color => 'color-5'
     },{
         name => 'COLLABOARTION TOOLS', 
-        description => 'During the internship at Systek and Skattetaten I used 
-                        both Slack and Jira.',
+        description => 'During internships, group projects, and my experience from ITK I have used 
+                        IRC, Mattermost, Slack, Jira, Trello, Teams, Zoom, and GSuite.',
         icon => "far fa-comments",
         color => 'color-6'
     },{
         name => 'GAME DEVELOPMENT', 
-        description => 'For game development I have been using Unity to create 
-                        3D environments, C# to provide game objects with properties 
-                        and features, and the HTC Vive as VR game equipment.',
+        description => "I have gaind experience in game development for Android and VR. 
+                        For VR development, I have been using Unity to create 
+                        3D environments, C# to provide the game functionality. 
+                        For Android development, I've worked in Android Studios with Kotlin and LibGDX.",
         icon => "fa fa-gamepad",
         color => 'color-1'
     },{
         name => 'EDITORS', 
-        description => 'Through the years I have been using Vim, Atom, Sublime, 
-                        IntelliJ IDEA, Eclipse, Visual Studio Code, Visual Studio.',
+        description => 'Through the years I have been using Vim, IntelliJ Ultimate, Eclipse, 
+                        Visual Studio Code, Visual Studio, Android Studio to name a few.',
         icon => "far fa-file-code",
         color => 'color-2'
     }];
