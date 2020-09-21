@@ -91,6 +91,11 @@ h6 {
   font-weight: 500; 
 }
 
+.heading_container .last_changed{
+  font-size: 10px;
+  font-weight: 500; 
+}
+
 #Iframe-Liason-Sheet {
  max-width: 1000px;
  max-height: 2000px;
