@@ -21,30 +21,7 @@
   font-size: 16px;
   font-weight: 500;
 }
-.services.color-2 {
-  border-bottom: 2px solid #ec5453;
-}
-.services.color-2 .icon2 i {
-  color: #ec5453;
-}
-.services.color-3 {
-  border-bottom: 2px solid #f9bf3f;
-}
-.services.color-3 .icon2 i {
-  color: #f9bf3f;
-}
-.services.color-4 {
-  border-bottom: 2px solid #a84cb8;
-}
-.services.color-4 .icon2 i {
-  color: #a84cb8;
-}
-.services.color-5 {
-  border-bottom: 2px solid #2fa499;
-}
-.services.color-6 {
-  border-bottom: 2px solid #4054b2;
-}
+
 
 .services {
   margin-bottom: 80px;
@@ -105,6 +82,10 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+
+
+
 .services.color-1 .icon {
   background: #2c98f0;
 }
@@ -113,6 +94,13 @@
 }
 .services.color-1 .icon:after {
   border-color: #2c98f0 transparent transparent transparent;
+}
+
+.services.color-2 {
+  border-bottom: 2px solid #ec5453;
+}
+.services.color-2 .icon2 i {
+  color: #ec5453;
 }
 .services.color-2 .icon {
   background: #ec5453;
@@ -123,6 +111,14 @@
 .services.color-2 .icon:after {
   border-color: #ec5453 transparent transparent transparent;
 }
+
+
+.services.color-3 {
+  border-bottom: 2px solid #f9bf3f;
+}
+.services.color-3 .icon2 i {
+  color: #f9bf3f;
+}
 .services.color-3 .icon {
   background: #fff759;
 }
@@ -132,6 +128,11 @@
 .services.color-3 .icon:after {
   border-color: #fff759 transparent transparent transparent;
 }
+
+.services.color-4 {
+  border-bottom: 2px solid #a84cb8;
+}
+
 .services.color-4 .icon {
   background: #a84cb8;
 }
@@ -141,6 +142,13 @@
 .services.color-4 .icon:after {
   border-color: #a84cb8 transparent transparent transparent;
 }
+
+.services.color-5 {
+  border-bottom: 2px solid #2fa499;
+}
+.services.color-5 .icon2 i {
+  color: #2fa499;
+}
 .services.color-5 .icon {
   background: #2fa499;
 }
@@ -149,6 +157,15 @@
 }
 .services.color-5 .icon:after {
   border-color: #2fa499 transparent transparent transparent;
+}
+
+
+
+.services.color-6 {
+  border-bottom: 2px solid #ffae00;
+}
+.services.color-6 .icon2 i {
+  color: #ffae00;
 }
 .services.color-6 .icon {
   background: #ffae00;

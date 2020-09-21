@@ -18,6 +18,18 @@ my @experience_list = [
                         Redux, Python w/ Flask, Perl etc.',
         icon => "fas fa-globe",
         color => 'color-1'
+     },{
+        name => 'COLLABOARTION TOOLS', 
+        description => 'During internships, group projects, and my experience from ITK I have used 
+                        IRC, Mattermost, Slack, Jira, Trello, Teams, Zoom, and GSuite.',
+        icon => "far fa-comments",
+        color => 'color-6'
+    },{
+        name => 'DEV OPS', 
+        description => "During my internships I've worked with Gradle, Openshift, Jenkins, 
+                        CircleCI, and Docker.",
+        icon => "fas fa-database",
+        color => 'color-4'
     },{
         name => 'DATA STRUCTURES & ALGORITHMS', 
         description => 'Coming from the CS background, I have good grasp over 
@@ -30,22 +42,16 @@ my @experience_list = [
         icon => "fas fa-database",
         color => 'color-3'
     },{
-        name => 'DEV OPS', 
-        description => "During my internships I've worked with Gradle, Openshift, Jenkins, CircleCI,
-                        and Docker.",
-        icon => "fas fa-database",
-        color => 'color-4'
-    },{
         name => 'GIT CLIENTS', 
         description => 'I have worked with Git, GitHub Desktop and Bitbucket.',
         icon => "fab fa-git-square",
         color => 'color-5'
     },{
-        name => 'COLLABOARTION TOOLS', 
-        description => 'During internships, group projects, and my experience from ITK I have used 
-                        IRC, Mattermost, Slack, Jira, Trello, Teams, Zoom, and GSuite.',
-        icon => "far fa-comments",
-        color => 'color-6'
+        name => 'EDITORS', 
+        description => 'Through the years I have been using Vim, IntelliJ Ultimate, Eclipse, 
+                        Visual Studio Code, Visual Studio, Android Studio to name a few.',
+        icon => "far fa-file-code",
+        color => 'color-2'
     },{
         name => 'GAME DEVELOPMENT', 
         description => "I have gaind experience in game development for Android and VR. 
@@ -54,12 +60,6 @@ my @experience_list = [
                         For Android development, I've worked in Android Studios with Kotlin and LibGDX.",
         icon => "fa fa-gamepad",
         color => 'color-1'
-    },{
-        name => 'EDITORS', 
-        description => 'Through the years I have been using Vim, IntelliJ Ultimate, Eclipse, 
-                        Visual Studio Code, Visual Studio, Android Studio to name a few.',
-        icon => "far fa-file-code",
-        color => 'color-2'
     }];
 
 
